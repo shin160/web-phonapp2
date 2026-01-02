@@ -1,0 +1,29 @@
+{
+    "project_info": {
+        "project_number": "342929677047",
+        "project_id": "phonapp2-21315",
+        "storage_bucket": "phonapp2-21315.appspot.com"
+    },
+    "client": [
+        {
+            "client_info": {
+                "mobilesdk_app_id": "1:342929677047:android:6100ae65dcc2cd41efd1f2",
+                "android_client_info": {
+                    "package_name": "com.Shin16.NewProject"
+                }
+            },
+            "oauth_client": [],
+            "api_key": [
+                {
+                    "current_key": "AIzaSyDLxypGl7kAmhLZ2jgvaksovShDqRSNgB0"
+                }
+            ],
+            "services": {
+                "appinvite_service": {
+                    "other_platform_oauth_client": []
+                }
+            }
+        }
+    ],
+    "configuration_version": "1"
+}
