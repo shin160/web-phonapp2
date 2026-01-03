@@ -1,14 +1,9 @@
-// src/components/ResponsiveFrame.tsx
 import React from 'react';
+import './components/ResponsiveFrame.css';
 
-interface ResponsiveFrameProps {
-  isMobile: boolean;
-  children: React.ReactNode;
-}
-
-const ResponsiveFrame: React.FC<ResponsiveFrameProps> = ({ isMobile, children }) => {
+const ResponsiveFrame: React.FC = ({ children }) => {
   return (
-    <div style={{ width: isMobile ? '100%' : '800px', margin: '0 auto' }}>
+    <div className="responsive-frame">
       {children}
     </div>
   );

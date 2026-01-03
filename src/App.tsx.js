@@ -1,8 +1,5 @@
-// src/App.tsx
 import React, { useEffect, useState } from 'react';
-import Loading from './components/Loading';
-import ResponsiveFrame from './components/ResponsiveFrame';
-import Root from './components/Root';
+import './styles/global.css';
 
 const App: React.FC = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -16,15 +13,14 @@ const App: React.FC = () => {
     return () => clearTimeout(timer);
   }, []);
 
-  // スマホ幅かどうかを判定
-  const isMobile = window.innerWidth <= 800;
-
   return (
-    <div>
+    <div className="app-container">
       {isLoading ? (
-        <Loading />
+        <div className="loading-screen">
+          <p>Loading...</p>
+        </div>
       ) : (
-        <ResponsiveFrame isMobile={isMobile}>
+        <ResponsiveFrame>
           <Root />
         </ResponsiveFrame>
       )}
