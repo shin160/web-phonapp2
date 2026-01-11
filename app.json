@@ -1,7 +1,7 @@
 ﻿{
   "expo": {
-    "name": "web-phonapp",
-    "slug": "web-phonapp",
+    "name": "web-phonapp2",
+    "slug": "web-phonapp2",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -28,11 +28,12 @@
 
     "web": {
       "bundler": "metro",
-      "publicPath": "/phonapp-web/"
+      "publicPath": "/web-phonapp2/"
     },
 
     "experiments": {
-      "baseUrl": "/phonapp-web"
+      "baseUrl": "/web-phonapp2"
     }
   }
 }
+
