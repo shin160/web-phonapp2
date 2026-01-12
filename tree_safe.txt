@@ -1,0 +1,14 @@
+﻿web-phonapp2
+├─docs
+├─src
+│  ├─BoinM
+│  │  ├─Boin1
+│  │  ├─Bonso1
+│  │  └─Bonso2
+│  ├─components
+│  ├─Footer
+│  ├─pages
+│  └─ShiinM
+│     ├─Shiin1
+│     └─Shiin2
+└─styles

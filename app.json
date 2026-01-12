@@ -1,29 +1,19 @@
-﻿{
+{
   "expo": {
     "name": "web-phonapp2",
     "slug": "web-phonapp2",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "newArchEnabled": true,
-
-    "splash": {
-      "image": "./assets/splash-icon.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
+    "newArchEnabled": false,
 
     "ios": {
       "supportsTablet": true
     },
 
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.shin16.webphonapp2"
     },
 
     "web": {
@@ -33,7 +23,12 @@
 
     "experiments": {
       "baseUrl": "/web-phonapp2"
+    },
+
+    "extra": {
+      "eas": {
+        "projectId": "37fee144-f48b-4598-a7e2-5d7780c12d89"
+      }
     }
   }
 }
-
