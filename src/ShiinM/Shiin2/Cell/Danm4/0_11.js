@@ -14,7 +14,7 @@ const Cell11 = () => {
   return (
     <View style={styles.container}>
       <Text style={[styles.text, { fontSize }]} onLayout={onTextLayout}>
-        前口蓋
+        後口蓋
       </Text>
     </View>
   );

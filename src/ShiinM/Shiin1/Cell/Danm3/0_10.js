@@ -9,7 +9,7 @@ const Cell10 = ({ style }) => {
         style={styles.image}
         resizeMode="contain"
       />
-      <Text style={styles.text}>前口蓋</Text>
+      <Text style={styles.text}>後口蓋</Text>
     </View>
   );
 };

@@ -1,0 +1,56 @@
+warning: in the working copy of 'src/ShiinM/Shiin1/Cell/Danm3/0_10.js', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'src/ShiinM/Shiin1/Cell/Danm4/0_11.js', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'src/ShiinM/Shiin2/Cell/Danm3/0_10.js', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'src/ShiinM/Shiin2/Cell/Danm4/0_11.js', CRLF will be replaced by LF the next time Git touches it
+[1mdiff --git a/src/ShiinM/Shiin1/Cell/Danm3/0_10.js b/src/ShiinM/Shiin1/Cell/Danm3/0_10.js[m
+[1mindex aa23609..aba7551 100644[m
+[1m--- a/src/ShiinM/Shiin1/Cell/Danm3/0_10.js[m
+[1m+++ b/src/ShiinM/Shiin1/Cell/Danm3/0_10.js[m
+[36m@@ -9,7 +9,7 @@[m [mconst Cell10 = ({ style }) => {[m
+         style={styles.image}[m
+         resizeMode="contain"[m
+       />[m
+[31m-      <Text style={styles.text}>前口蓋</Text>[m
+[32m+[m[32m      <Text style={styles.text}>後口蓋</Text>[m
+     </View>[m
+   );[m
+ };[m
+[1mdiff --git a/src/ShiinM/Shiin1/Cell/Danm4/0_11.js b/src/ShiinM/Shiin1/Cell/Danm4/0_11.js[m
+[1mindex 8d38382..795505c 100644[m
+[1m--- a/src/ShiinM/Shiin1/Cell/Danm4/0_11.js[m
+[1m+++ b/src/ShiinM/Shiin1/Cell/Danm4/0_11.js[m
+[36m@@ -14,7 +14,7 @@[m [mconst Cell11 = () => {[m
+   return ([m
+     <View style={styles.container}>[m
+       <Text style={[styles.text, { fontSize }]} onLayout={onTextLayout}>[m
+[31m-        前口蓋[m
+[32m+[m[32m        後口蓋[m
+       </Text>[m
+     </View>[m
+   );[m
+[1mdiff --git a/src/ShiinM/Shiin2/Cell/Danm3/0_10.js b/src/ShiinM/Shiin2/Cell/Danm3/0_10.js[m
+[1mindex aa23609..aba7551 100644[m
+[1m--- a/src/ShiinM/Shiin2/Cell/Danm3/0_10.js[m
+[1m+++ b/src/ShiinM/Shiin2/Cell/Danm3/0_10.js[m
+[36m@@ -9,7 +9,7 @@[m [mconst Cell10 = ({ style }) => {[m
+         style={styles.image}[m
+         resizeMode="contain"[m
+       />[m
+[31m-      <Text style={styles.text}>前口蓋</Text>[m
+[32m+[m[32m      <Text style={styles.text}>後口蓋</Text>[m
+     </View>[m
+   );[m
+ };[m
+[1mdiff --git a/src/ShiinM/Shiin2/Cell/Danm4/0_11.js b/src/ShiinM/Shiin2/Cell/Danm4/0_11.js[m
+[1mindex 8d38382..795505c 100644[m
+[1m--- a/src/ShiinM/Shiin2/Cell/Danm4/0_11.js[m
+[1m+++ b/src/ShiinM/Shiin2/Cell/Danm4/0_11.js[m
+[36m@@ -14,7 +14,7 @@[m [mconst Cell11 = () => {[m
+   return ([m
+     <View style={styles.container}>[m
+       <Text style={[styles.text, { fontSize }]} onLayout={onTextLayout}>[m
+[31m-        前口蓋[m
+[32m+[m[32m        後口蓋[m
+       </Text>[m
+     </View>[m
+   );[m
