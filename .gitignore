@@ -5,7 +5,6 @@ node_modules/
 
 # Expo
 .expo/
-+ # dist/
 web-build/
 expo-env.d.ts
 
@@ -40,5 +39,9 @@ yarn-error.*
 /ios
 /android
 
+# build outputs
 dist/
 
+# build artifacts (IMPORTANT)
+*.apk
+*.aab
